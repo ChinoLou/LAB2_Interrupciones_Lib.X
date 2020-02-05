@@ -2675,6 +2675,7 @@ void Show_7SEG(void);
 
 
 
+
 void __attribute__((picinterrupt(("")))) ISR(void) {
     if (ADIF) {
         resultado_ADC_dec = ADRESH >> 4;
@@ -2737,7 +2738,7 @@ void Show_7SEG(void){
         PORTEbits.RE2 = 1;
         PIR1bits.ADIF = 0;
 }
-# 127 "LAB2_cas17169.c"
+# 128 "LAB2_cas17169.c"
 void config(void){
 
     TRISC = 0x00;
