@@ -44,7 +44,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
 [p mainexit ]
 "39 LAB2_cas17169.c
-[; ;LAB2_cas17169.c: 39: }
+[; ;LAB2_cas17169.c: 39: 
 [v _config `(v ~T0 @X0 0 ef ]
 "20 ./ADC_Library.h
 [; ;./ADC_Library.h: 20: void config_ADC(void);
@@ -406,40 +406,40 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
 [; <" EECON2 equ 018Dh ;# ">
 "16 LAB2_cas17169.c
-[; ;LAB2_cas17169.c: 16:         resultado_ADC_dec = ADRESH >> 4;
+[; ;LAB2_cas17169.c: 16:         resultado_ADC_uni = ADRESH & ADC_nibble_uni;
 [p x FOSC = INTRC_NOCLKOUT ]
 "17
-[; ;LAB2_cas17169.c: 17:         resultado_ADC_uni = ADRESH & ADC_nibble_uni;
+[; ;LAB2_cas17169.c: 17: 
 [p x WDTE = OFF ]
 "18
 [; ;LAB2_cas17169.c: 18: 
 [p x PWRTE = OFF ]
 "19
-[; ;LAB2_cas17169.c: 19: 
+[; ;LAB2_cas17169.c: 19:         Show_7SEG();
 [p x MCLRE = ON ]
 "20
-[; ;LAB2_cas17169.c: 20:         Show_7SEG();
+[; ;LAB2_cas17169.c: 20:     }
 [p x CP = OFF ]
 "21
-[; ;LAB2_cas17169.c: 21:     }
+[; ;LAB2_cas17169.c: 21: 
 [p x CPD = OFF ]
 "22
-[; ;LAB2_cas17169.c: 22: 
+[; ;LAB2_cas17169.c: 22:     if (RBIF) {
 [p x BOREN = OFF ]
 "23
-[; ;LAB2_cas17169.c: 23:     if (RBIF) {
+[; ;LAB2_cas17169.c: 23:         if(PORTBbits.RB5 == 0){
 [p x IESO = OFF ]
 "24
-[; ;LAB2_cas17169.c: 24:         if(PORTBbits.RB5 == 0){
+[; ;LAB2_cas17169.c: 24:             PORTD = PORTD++ ;
 [p x FCMEN = OFF ]
 "25
-[; ;LAB2_cas17169.c: 25:             PORTD = PORTD++ ;
+[; ;LAB2_cas17169.c: 25:         }
 [p x LVP = OFF ]
 "28
-[; ;LAB2_cas17169.c: 28:             PORTD = PORTD-- ;
+[; ;LAB2_cas17169.c: 28:         }
 [p x BOR4V = BOR40V ]
 "29
-[; ;LAB2_cas17169.c: 29:         }
+[; ;LAB2_cas17169.c: 29:         INTCONbits.RBIF = 0 ;
 [p x WRT = OFF ]
 "32
 [; ;LAB2_cas17169.c: 32: 
@@ -483,198 +483,198 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 [v $root$_ISR `(v ~T0 @X0 0 e ]
-"45
-[; ;LAB2_cas17169.c: 45:     config ();
+"44
+[; ;LAB2_cas17169.c: 44:     config ();
 [v _ISR `(v ~T1 @X0 1 ef ]
 {
 [e :U _ISR ]
 [f ]
-"46
-[; ;LAB2_cas17169.c: 46:     config_ADC ();
+"45
+[; ;LAB2_cas17169.c: 45:     config_ADC ();
 [e $ ! _ADIF 139  ]
 {
-"47
-[; ;LAB2_cas17169.c: 47: 
+"46
+[; ;LAB2_cas17169.c: 46: 
 [e = _resultado_ADC_dec -> >> -> _ADRESH `i -> 4 `i `uc ]
-"48
-[; ;LAB2_cas17169.c: 48:     while(1){
+"47
+[; ;LAB2_cas17169.c: 47:     while(1){
 [e = _resultado_ADC_uni -> & -> _ADRESH `i -> _ADC_nibble_uni `i `uc ]
+"50
+[; ;LAB2_cas17169.c: 50: 
+[e ( _Show_7SEG ..  ]
 "51
 [; ;LAB2_cas17169.c: 51: 
-[e ( _Show_7SEG ..  ]
-"52
-[; ;LAB2_cas17169.c: 52: 
 }
 [e :U 139 ]
-"54
-[; ;LAB2_cas17169.c: 54:         PORTEbits.RE0 = 1;
+"53
+[; ;LAB2_cas17169.c: 53:         PORTEbits.RE0 = 1;
 [e $ ! _RBIF 140  ]
 {
-"55
-[; ;LAB2_cas17169.c: 55:     }
+"54
+[; ;LAB2_cas17169.c: 54:     }
 [e $ ! == -> . . _PORTBbits 0 5 `i -> 0 `i 141  ]
 {
-"56
-[; ;LAB2_cas17169.c: 56:     else{
+"55
+[; ;LAB2_cas17169.c: 55:     else{
 [e = _PORTD ++ _PORTD -> -> 1 `i `Vuc ]
-"57
-[; ;LAB2_cas17169.c: 57:         PORTEbits.RE0 = 0;
+"56
+[; ;LAB2_cas17169.c: 56:         PORTEbits.RE0 = 0;
 }
 [e :U 141 ]
-"58
-[; ;LAB2_cas17169.c: 58:         }
+"57
+[; ;LAB2_cas17169.c: 57:         }
 [e $ ! == -> . . _PORTBbits 0 7 `i -> 0 `i 142  ]
 {
-"59
-[; ;LAB2_cas17169.c: 59: 
+"58
+[; ;LAB2_cas17169.c: 58: 
 [e = _PORTD -- _PORTD -> -> 1 `i `Vuc ]
-"60
-[; ;LAB2_cas17169.c: 60:     }
+"59
+[; ;LAB2_cas17169.c: 59:     }
 }
 [e :U 142 ]
-"61
-[; ;LAB2_cas17169.c: 61: 
+"60
+[; ;LAB2_cas17169.c: 60: 
 [e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
-"62
-[; ;LAB2_cas17169.c: 62:     return;
+"61
+[; ;LAB2_cas17169.c: 61:     return;
 }
 [e :U 140 ]
-"70
-[; ;LAB2_cas17169.c: 70:         _delay((unsigned long)((100)*(4000000/4000000.0)));
+"69
+[; ;LAB2_cas17169.c: 69:         _delay((unsigned long)((100)*(4000000/4000000.0)));
 [e :UE 138 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"75
-[; ;LAB2_cas17169.c: 75: }
+"74
+[; ;LAB2_cas17169.c: 74: }
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"76
+"75
 [e ( _config ..  ]
-"77
+"76
 [e ( _config_ADC ..  ]
-"79
+"78
 [e :U 145 ]
 {
-"80
+"79
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
-"81
+"80
 [e = . . _ADCON0bits 0 1 -> -> 1 `i `uc ]
-"84
+"83
 [e $ ! < -> _PORTD `i -> _ADRESH `i 147  ]
 {
-"85
+"84
 [e = . . _PORTEbits 0 0 -> -> 1 `i `uc ]
-"86
+"85
 }
 [e $U 148  ]
-"87
+"86
 [e :U 147 ]
 {
-"88
+"87
 [e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
-"89
+"88
 }
 [e :U 148 ]
-"91
+"90
 }
 [e :U 144 ]
 [e $U 145  ]
 [e :U 146 ]
-"93
+"92
 [e $UE 143  ]
-"94
+"93
 [e :UE 143 ]
 }
-"97
+"96
 [v _Show_7SEG `(v ~T0 @X0 1 ef ]
 {
 [e :U _Show_7SEG ]
 [f ]
-"98
+"97
 [e = . . _PORTEbits 0 2 -> -> 0 `i `uc ]
-"99
+"98
 [e = _PORTC -> *U + &U _DISPLAY * -> _resultado_ADC_uni `ux -> -> # *U &U _DISPLAY `ui `ux `uc ]
-"100
+"99
 [e = . . _PORTEbits 0 1 -> -> 1 `i `uc ]
-"101
+"100
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
-"102
+"101
 [e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
-"103
+"102
 [e = _PORTC -> *U + &U _DISPLAY * -> _resultado_ADC_dec `ux -> -> # *U &U _DISPLAY `ui `ux `uc ]
-"104
+"103
 [e = . . _PORTEbits 0 2 -> -> 1 `i `uc ]
-"105
+"104
 [e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
-"106
+"105
 [e :UE 149 ]
 }
-"128
-[; ;LAB2_cas17169.c: 128: void config(void){
+"127
+[; ;LAB2_cas17169.c: 127: void config(void){
 [v _config `(v ~T0 @X0 1 ef ]
 {
 [e :U _config ]
 [f ]
-"130
-[; ;LAB2_cas17169.c: 130:     TRISC = 0x00;
+"129
+[; ;LAB2_cas17169.c: 129:     TRISC = 0x00;
 [e = _TRISC -> -> 0 `i `uc ]
-"131
-[; ;LAB2_cas17169.c: 131:     TRISD = 0x00;
+"130
+[; ;LAB2_cas17169.c: 130:     TRISD = 0x00;
 [e = _TRISD -> -> 0 `i `uc ]
-"132
-[; ;LAB2_cas17169.c: 132:     TRISEbits.TRISE0 = 0;
+"131
+[; ;LAB2_cas17169.c: 131:     TRISEbits.TRISE0 = 0;
 [e = . . _TRISEbits 0 0 -> -> 0 `i `uc ]
-"133
-[; ;LAB2_cas17169.c: 133:     TRISEbits.TRISE1 = 0;
+"132
+[; ;LAB2_cas17169.c: 132:     TRISEbits.TRISE1 = 0;
 [e = . . _TRISEbits 0 1 -> -> 0 `i `uc ]
-"134
-[; ;LAB2_cas17169.c: 134:     TRISEbits.TRISE2 = 0;
+"133
+[; ;LAB2_cas17169.c: 133:     TRISEbits.TRISE2 = 0;
 [e = . . _TRISEbits 0 2 -> -> 0 `i `uc ]
-"138
-[; ;LAB2_cas17169.c: 138:     ANSELH = 0;
+"137
+[; ;LAB2_cas17169.c: 137:     ANSELH = 0;
 [e = _ANSELH -> -> 0 `i `uc ]
-"139
-[; ;LAB2_cas17169.c: 139:     INTCONbits.GIE = 1;
+"138
+[; ;LAB2_cas17169.c: 138:     INTCONbits.GIE = 1;
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
-"141
-[; ;LAB2_cas17169.c: 141:     INTCONbits.RBIF = 0 ;
+"140
+[; ;LAB2_cas17169.c: 140:     INTCONbits.RBIF = 0 ;
 [e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
-"142
-[; ;LAB2_cas17169.c: 142:     TRISBbits.TRISB7 = 1 ;
+"141
+[; ;LAB2_cas17169.c: 141:     TRISBbits.TRISB7 = 1 ;
 [e = . . _TRISBbits 0 7 -> -> 1 `i `uc ]
-"143
-[; ;LAB2_cas17169.c: 143:     TRISBbits.TRISB5 = 1 ;
+"142
+[; ;LAB2_cas17169.c: 142:     TRISBbits.TRISB5 = 1 ;
 [e = . . _TRISBbits 0 5 -> -> 1 `i `uc ]
-"145
-[; ;LAB2_cas17169.c: 145:     OPTION_REGbits.nRBPU = 0;
+"144
+[; ;LAB2_cas17169.c: 144:     OPTION_REGbits.nRBPU = 0;
 [e = . . _OPTION_REGbits 0 5 -> -> 0 `i `uc ]
-"148
-[; ;LAB2_cas17169.c: 148:     INTCONbits.RBIE = 1;
+"147
+[; ;LAB2_cas17169.c: 147:     INTCONbits.RBIE = 1;
 [e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
-"150
-[; ;LAB2_cas17169.c: 150:     IOCBbits.IOCB7 = 1;
+"149
+[; ;LAB2_cas17169.c: 149:     IOCBbits.IOCB7 = 1;
 [e = . . _IOCBbits 1 7 -> -> 1 `i `uc ]
-"151
-[; ;LAB2_cas17169.c: 151:     IOCBbits.IOCB5 = 1;
+"150
+[; ;LAB2_cas17169.c: 150:     IOCBbits.IOCB5 = 1;
 [e = . . _IOCBbits 1 5 -> -> 1 `i `uc ]
-"155
-[; ;LAB2_cas17169.c: 155:     PORTA = 0x00;
+"154
+[; ;LAB2_cas17169.c: 154:     PORTA = 0x00;
 [e = _PORTA -> -> 0 `i `uc ]
-"156
-[; ;LAB2_cas17169.c: 156:     PORTB = 0x00;
+"155
+[; ;LAB2_cas17169.c: 155:     PORTB = 0x00;
 [e = _PORTB -> -> 0 `i `uc ]
-"157
-[; ;LAB2_cas17169.c: 157:     PORTC = 0x00;
+"156
+[; ;LAB2_cas17169.c: 156:     PORTC = 0x00;
 [e = _PORTC -> -> 0 `i `uc ]
-"158
-[; ;LAB2_cas17169.c: 158:     PORTD = 0x00;
+"157
+[; ;LAB2_cas17169.c: 157:     PORTD = 0x00;
 [e = _PORTD -> -> 0 `i `uc ]
-"159
-[; ;LAB2_cas17169.c: 159:     PORTE = 0x00;
+"158
+[; ;LAB2_cas17169.c: 158:     PORTE = 0x00;
 [e = _PORTE -> -> 0 `i `uc ]
-"160
-[; ;LAB2_cas17169.c: 160: }
+"159
+[; ;LAB2_cas17169.c: 159: }
 [e :UE 150 ]
 }
