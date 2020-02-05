@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.10 build 88905656 
-                                                                                               Wed Feb 05 14:24:41 2020
+                                                                                               Wed Feb 05 14:20:05 2020
 
 Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1 
      1                           	processor	16F887
@@ -564,7 +564,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    550 ;;
    551 ;; *************** function _main *****************
    552 ;; Defined at:
-   553 ;;		line 74 in file "LAB2_cas17169.c"
+   553 ;;		line 75 in file "LAB2_cas17169.c"
    554 ;; Parameters:    Size  Location     Type
    555 ;;		None
    556 ;; Auto vars:     Size  Location     Type
@@ -760,7 +760,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    746  00E8                     __ptext2:	
    747 ;; *************** function _config *****************
    748 ;; Defined at:
-   749 ;;		line 127 in file "LAB2_cas17169.c"
+   749 ;;		line 128 in file "LAB2_cas17169.c"
    750 ;; Parameters:    Size  Location     Type
    751 ;;		None
    752 ;; Auto vars:     Size  Location     Type
@@ -796,80 +796,80 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    782                           ; Regs used in _config: [status,2]
    783                           
    784                           
-   785                           ;LAB2_cas17169.c: 129:     TRISC = 0x00;
+   785                           ;LAB2_cas17169.c: 130:     TRISC = 0x00;
    786  00E8  1683               	bsf	3,5	;RP0=1, select bank1
    787  00E9  1303               	bcf	3,6	;RP1=0, select bank1
    788  00EA  0187               	clrf	7	;volatile
    789                           
-   790                           ;LAB2_cas17169.c: 130:     TRISD = 0x00;
+   790                           ;LAB2_cas17169.c: 131:     TRISD = 0x00;
    791  00EB  0188               	clrf	8	;volatile
    792  00EC                     l733:	
    793                           
-   794                           ;LAB2_cas17169.c: 131:     TRISEbits.TRISE0 = 0;
+   794                           ;LAB2_cas17169.c: 132:     TRISEbits.TRISE0 = 0;
    795  00EC  1009               	bcf	9,0	;volatile
    796  00ED                     l735:	
    797                           
-   798                           ;LAB2_cas17169.c: 132:     TRISEbits.TRISE1 = 0;
+   798                           ;LAB2_cas17169.c: 133:     TRISEbits.TRISE1 = 0;
    799  00ED  1089               	bcf	9,1	;volatile
    800  00EE                     l737:	
    801                           
-   802                           ;LAB2_cas17169.c: 133:     TRISEbits.TRISE2 = 0;
+   802                           ;LAB2_cas17169.c: 134:     TRISEbits.TRISE2 = 0;
    803  00EE  1109               	bcf	9,2	;volatile
    804                           
-   805                           ;LAB2_cas17169.c: 137:     ANSELH = 0;
+   805                           ;LAB2_cas17169.c: 138:     ANSELH = 0;
    806  00EF  1683               	bsf	3,5	;RP0=1, select bank3
    807  00F0  1703               	bsf	3,6	;RP1=1, select bank3
    808  00F1  0189               	clrf	9	;volatile
    809  00F2                     l739:	
    810                           
-   811                           ;LAB2_cas17169.c: 138:     INTCONbits.GIE = 1;
+   811                           ;LAB2_cas17169.c: 139:     INTCONbits.GIE = 1;
    812  00F2  178B               	bsf	11,7	;volatile
    813  00F3                     l741:	
    814                           
-   815                           ;LAB2_cas17169.c: 140:     INTCONbits.RBIF = 0 ;
+   815                           ;LAB2_cas17169.c: 141:     INTCONbits.RBIF = 0 ;
    816  00F3  100B               	bcf	11,0	;volatile
    817  00F4                     l743:	
    818                           
-   819                           ;LAB2_cas17169.c: 141:     TRISBbits.TRISB7 = 1 ;
+   819                           ;LAB2_cas17169.c: 142:     TRISBbits.TRISB7 = 1 ;
    820  00F4  1683               	bsf	3,5	;RP0=1, select bank1
    821  00F5  1303               	bcf	3,6	;RP1=0, select bank1
    822  00F6  1786               	bsf	6,7	;volatile
    823  00F7                     l745:	
    824                           
-   825                           ;LAB2_cas17169.c: 142:     TRISBbits.TRISB5 = 1 ;
+   825                           ;LAB2_cas17169.c: 143:     TRISBbits.TRISB5 = 1 ;
    826  00F7  1686               	bsf	6,5	;volatile
    827  00F8                     l747:	
    828                           
-   829                           ;LAB2_cas17169.c: 144:     OPTION_REGbits.nRBPU = 0;
+   829                           ;LAB2_cas17169.c: 145:     OPTION_REGbits.nRBPU = 0;
    830  00F8  1381               	bcf	1,7	;volatile
    831  00F9                     l749:	
    832                           
-   833                           ;LAB2_cas17169.c: 147:     INTCONbits.RBIE = 1;
+   833                           ;LAB2_cas17169.c: 148:     INTCONbits.RBIE = 1;
    834  00F9  158B               	bsf	11,3	;volatile
    835  00FA                     l751:	
    836                           
-   837                           ;LAB2_cas17169.c: 149:     IOCBbits.IOCB7 = 1;
+   837                           ;LAB2_cas17169.c: 150:     IOCBbits.IOCB7 = 1;
    838  00FA  1796               	bsf	22,7	;volatile
    839  00FB                     l753:	
    840                           
-   841                           ;LAB2_cas17169.c: 150:     IOCBbits.IOCB5 = 1;
+   841                           ;LAB2_cas17169.c: 151:     IOCBbits.IOCB5 = 1;
    842  00FB  1696               	bsf	22,5	;volatile
    843                           
-   844                           ;LAB2_cas17169.c: 154:     PORTA = 0x00;
+   844                           ;LAB2_cas17169.c: 155:     PORTA = 0x00;
    845  00FC  1283               	bcf	3,5	;RP0=0, select bank0
    846  00FD  1303               	bcf	3,6	;RP1=0, select bank0
    847  00FE  0185               	clrf	5	;volatile
    848                           
-   849                           ;LAB2_cas17169.c: 155:     PORTB = 0x00;
+   849                           ;LAB2_cas17169.c: 156:     PORTB = 0x00;
    850  00FF  0186               	clrf	6	;volatile
    851                           
-   852                           ;LAB2_cas17169.c: 156:     PORTC = 0x00;
+   852                           ;LAB2_cas17169.c: 157:     PORTC = 0x00;
    853  0100  0187               	clrf	7	;volatile
    854                           
-   855                           ;LAB2_cas17169.c: 157:     PORTD = 0x00;
+   855                           ;LAB2_cas17169.c: 158:     PORTD = 0x00;
    856  0101  0188               	clrf	8	;volatile
    857                           
-   858                           ;LAB2_cas17169.c: 158:     PORTE = 0x00;
+   858                           ;LAB2_cas17169.c: 159:     PORTE = 0x00;
    859  0102  0189               	clrf	9	;volatile
    860  0103                     l81:	
    861  0103  0008               	return
@@ -879,7 +879,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    865  002B                     __ptext3:	
    866 ;; *************** function _ISR *****************
    867 ;; Defined at:
-   868 ;;		line 44 in file "LAB2_cas17169.c"
+   868 ;;		line 45 in file "LAB2_cas17169.c"
    869 ;; Parameters:    Size  Location     Type
    870 ;;		None
    871 ;; Auto vars:     Size  Location     Type
@@ -912,7 +912,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    898  002B                     _ISR:	
    899  002B                     i1l789:	
    900                           
-   901                           ;LAB2_cas17169.c: 45:     config_ADC ();
+   901                           ;LAB2_cas17169.c: 46:     config_ADC ();
    902  002B  1283               	bcf	3,5	;RP0=0, select bank0
    903  002C  1303               	bcf	3,6	;RP1=0, select bank0
    904  002D  1F0C               	btfss	12,6	;volatile
@@ -923,7 +923,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    909  0031                     u1_20:	
    910  0031                     i1l791:	
    911                           
-   912                           ;LAB2_cas17169.c: 46: 
+   912                           ;LAB2_cas17169.c: 47: 
    913  0031  081E               	movf	30,w	;volatile
    914  0032  00F1               	movwf	??_ISR
    915  0033  3004               	movlw	4
@@ -938,7 +938,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    924  003B  0872               	movf	??_ISR+1,w
    925  003C  00F7               	movwf	_resultado_ADC_dec
    926                           
-   927                           ;LAB2_cas17169.c: 47:     while(1){
+   927                           ;LAB2_cas17169.c: 48:     while(1){
    928  003D  081E               	movf	30,w	;volatile
    929  003E  0579               	andwf	_ADC_nibble_uni,w
    930  003F  00F1               	movwf	??_ISR
@@ -946,11 +946,11 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    932  0041  00F8               	movwf	_resultado_ADC_uni
    933  0042                     i1l793:	
    934                           
-   935                           ;LAB2_cas17169.c: 50: 
+   935                           ;LAB2_cas17169.c: 51: 
    936  0042  120A  118A  20CA  120A  118A  	fcall	_Show_7SEG
    937  0047                     i1l795:	
    938                           
-   939                           ;LAB2_cas17169.c: 53:         PORTEbits.RE0 = 1;
+   939                           ;LAB2_cas17169.c: 54:         PORTEbits.RE0 = 1;
    940  0047  1C0B               	btfss	11,0	;volatile
    941  0048  284A               	goto	u3_21
    942  0049  284B               	goto	u3_20
@@ -959,7 +959,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    945  004B                     u3_20:	
    946  004B                     i1l797:	
    947                           
-   948                           ;LAB2_cas17169.c: 54:     }
+   948                           ;LAB2_cas17169.c: 55:     }
    949  004B  1283               	bcf	3,5	;RP0=0, select bank0
    950  004C  1303               	bcf	3,6	;RP1=0, select bank0
    951  004D  1A86               	btfsc	6,5	;volatile
@@ -970,7 +970,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    956  0051                     u4_20:	
    957  0051                     i1l799:	
    958                           
-   959                           ;LAB2_cas17169.c: 55:     else{
+   959                           ;LAB2_cas17169.c: 56:     else{
    960  0051  0808               	movf	8,w	;volatile
    961  0052  0088               	movwf	8	;volatile
    962  0053                     i1l801:	
@@ -980,7 +980,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    966  0056  0788               	addwf	8,f	;volatile
    967  0057                     i1l803:	
    968                           
-   969                           ;LAB2_cas17169.c: 57:         }
+   969                           ;LAB2_cas17169.c: 58:         }
    970  0057  1B86               	btfsc	6,7	;volatile
    971  0058  285A               	goto	u5_21
    972  0059  285B               	goto	u5_20
@@ -989,7 +989,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    975  005B                     u5_20:	
    976  005B                     i1l805:	
    977                           
-   978                           ;LAB2_cas17169.c: 58: 
+   978                           ;LAB2_cas17169.c: 59: 
    979  005B  0808               	movf	8,w	;volatile
    980  005C  0088               	movwf	8	;volatile
    981  005D                     i1l807:	
@@ -997,7 +997,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
    983  005E  0288               	subwf	8,f	;volatile
    984  005F                     i1l809:	
    985                           
-   986                           ;LAB2_cas17169.c: 60: 
+   986                           ;LAB2_cas17169.c: 61: 
    987  005F  100B               	bcf	11,0	;volatile
    988  0060                     i1l65:	
    989  0060  0875               	movf	??_ISR+4,w
@@ -1031,7 +1031,7 @@ Microchip MPLAB XC8 C Compiler v2.10 (Free license) build 20190730164152 Og1
   1017  00CA                     __ptext4:	
   1018 ;; *************** function _Show_7SEG *****************
   1019 ;; Defined at:
-  1020 ;;		line 96 in file "LAB2_cas17169.c"
+  1020 ;;		line 97 in file "LAB2_cas17169.c"
   1021 ;; Parameters:    Size  Location     Type
   1022 ;;		None
   1023 ;; Auto vars:     Size  Location     Type
@@ -1235,7 +1235,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.10 build 88905656 
-Symbol Table                                                                                   Wed Feb 05 14:24:41 2020
+Symbol Table                                                                                   Wed Feb 05 14:20:05 2020
 
                        pc 0002               __CFG_CP$OFF 0000                        l71 00C5  
                       l81 0103                        u60 00C3                        u61 00C2  
