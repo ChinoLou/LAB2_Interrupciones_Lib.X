@@ -13,13 +13,13 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"45 C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
+"44 C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 [v _ISR ISR `II(v  1 e 1 0 ]
-"75
+"74
 [v _main main `(v  1 e 1 0 ]
-"97
+"96
 [v _Show_7SEG Show_7SEG `(v  1 e 1 0 ]
-"128
+"127
 [v _config config `(v  1 e 1 0 ]
 "166 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f887.h
 [v _PORTA PORTA `VEuc  1 e 1 @5 ]
@@ -214,28 +214,28 @@
 [v _ADC_nibble_uni ADC_nibble_uni `uc  1 e 1 0 ]
 "36
 [v _DISPLAY DISPLAY `[16]i  1 e 32 0 ]
-"75
+"74
 [v _main main `(v  1 e 1 0 ]
 {
-"94
+"93
 } 0
 "15 C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\ADC_Library.c
 [v _config_ADC config_ADC `(v  1 e 1 0 ]
 {
 "39
 } 0
-"128 C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
+"127 C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 [v _config config `(v  1 e 1 0 ]
 {
-"160
+"159
 } 0
-"45
+"44
 [v _ISR ISR `II(v  1 e 1 0 ]
 {
-"70
+"69
 } 0
-"97
+"96
 [v _Show_7SEG Show_7SEG `(v  1 e 1 0 ]
 {
-"106
+"105
 } 0

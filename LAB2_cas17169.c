@@ -39,7 +39,6 @@ int     DISPLAY[16]       = {0b01111110, 0b00110000, 0b01101101, 0b01111001, 0b0
 void config(void);
 void Show_7SEG(void);
 
-//void initTMR0(void);
 
 
 void __interrupt() ISR(void) {
