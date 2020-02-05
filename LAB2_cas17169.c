@@ -38,7 +38,7 @@ int     DISPLAY[16]       = {0b01111110, 0b00110000, 0b01101101, 0b01111001, 0b0
 // Prototipos de Funciones 
 void config(void);
 void Show_7SEG(void);
-
+//HOLAAAA
 
 
 void __interrupt() ISR(void) {

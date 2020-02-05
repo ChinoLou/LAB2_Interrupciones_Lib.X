@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Josue\AppData\Local\Temp\sa8k.o
+$C:\Users\Josue\AppData\Local\Temp\sclg.o
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 E E 3 2
 config CONFIG 0 2007 2007 2 2
@@ -76,25 +76,25 @@ STRING 118-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-11 cinit CODE >862:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-11 cinit CODE >865:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-11 cinit CODE >923:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-12 cinit CODE >924:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-13 cinit CODE >925:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-14 cinit CODE >926:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-15 cinit CODE >927:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-16 cinit CODE >928:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-17 cinit CODE >929:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-18 cinit CODE >930:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-19 cinit CODE >931:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-1A cinit CODE >932:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-1F cinit CODE >936:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-24 cinit CODE >937:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-25 cinit CODE >941:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-26 cinit CODE >942:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-27 cinit CODE >948:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-27 cinit CODE >950:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-28 cinit CODE >951:C:\Users\Josue\AppData\Local\Temp\sa8k.s
+11 cinit CODE >862:C:\Users\Josue\AppData\Local\Temp\sclg.s
+11 cinit CODE >865:C:\Users\Josue\AppData\Local\Temp\sclg.s
+11 cinit CODE >923:C:\Users\Josue\AppData\Local\Temp\sclg.s
+12 cinit CODE >924:C:\Users\Josue\AppData\Local\Temp\sclg.s
+13 cinit CODE >925:C:\Users\Josue\AppData\Local\Temp\sclg.s
+14 cinit CODE >926:C:\Users\Josue\AppData\Local\Temp\sclg.s
+15 cinit CODE >927:C:\Users\Josue\AppData\Local\Temp\sclg.s
+16 cinit CODE >928:C:\Users\Josue\AppData\Local\Temp\sclg.s
+17 cinit CODE >929:C:\Users\Josue\AppData\Local\Temp\sclg.s
+18 cinit CODE >930:C:\Users\Josue\AppData\Local\Temp\sclg.s
+19 cinit CODE >931:C:\Users\Josue\AppData\Local\Temp\sclg.s
+1A cinit CODE >932:C:\Users\Josue\AppData\Local\Temp\sclg.s
+1F cinit CODE >936:C:\Users\Josue\AppData\Local\Temp\sclg.s
+24 cinit CODE >937:C:\Users\Josue\AppData\Local\Temp\sclg.s
+25 cinit CODE >941:C:\Users\Josue\AppData\Local\Temp\sclg.s
+26 cinit CODE >942:C:\Users\Josue\AppData\Local\Temp\sclg.s
+27 cinit CODE >948:C:\Users\Josue\AppData\Local\Temp\sclg.s
+27 cinit CODE >950:C:\Users\Josue\AppData\Local\Temp\sclg.s
+28 cinit CODE >951:C:\Users\Josue\AppData\Local\Temp\sclg.s
 4 intentry CODE >44:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 CA text4 CODE >96:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 CA text4 CODE >97:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
@@ -168,23 +168,23 @@ C3 maintext CODE >84:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interr
 C4 maintext CODE >85:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 C5 maintext CODE >86:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
 C5 maintext CODE >87:C:\Users\Josue\MPLABXProjects\Digital2_Labs2020\LAB2_Interrupciones_Lib.X\LAB2_cas17169.c
-104 inittext CODE >897:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-104 inittext CODE >898:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-105 inittext CODE >899:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-106 inittext CODE >900:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-107 inittext CODE >901:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-108 inittext CODE >908:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-108 inittext CODE >909:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-10D inittext CODE >910:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-10E inittext CODE >911:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-10F inittext CODE >912:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-110 inittext CODE >913:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-111 inittext CODE >914:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-112 inittext CODE >915:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-113 inittext CODE >916:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-114 inittext CODE >917:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-115 inittext CODE >918:C:\Users\Josue\AppData\Local\Temp\sa8k.s
-116 inittext CODE >919:C:\Users\Josue\AppData\Local\Temp\sa8k.s
+104 inittext CODE >897:C:\Users\Josue\AppData\Local\Temp\sclg.s
+104 inittext CODE >898:C:\Users\Josue\AppData\Local\Temp\sclg.s
+105 inittext CODE >899:C:\Users\Josue\AppData\Local\Temp\sclg.s
+106 inittext CODE >900:C:\Users\Josue\AppData\Local\Temp\sclg.s
+107 inittext CODE >901:C:\Users\Josue\AppData\Local\Temp\sclg.s
+108 inittext CODE >908:C:\Users\Josue\AppData\Local\Temp\sclg.s
+108 inittext CODE >909:C:\Users\Josue\AppData\Local\Temp\sclg.s
+10D inittext CODE >910:C:\Users\Josue\AppData\Local\Temp\sclg.s
+10E inittext CODE >911:C:\Users\Josue\AppData\Local\Temp\sclg.s
+10F inittext CODE >912:C:\Users\Josue\AppData\Local\Temp\sclg.s
+110 inittext CODE >913:C:\Users\Josue\AppData\Local\Temp\sclg.s
+111 inittext CODE >914:C:\Users\Josue\AppData\Local\Temp\sclg.s
+112 inittext CODE >915:C:\Users\Josue\AppData\Local\Temp\sclg.s
+113 inittext CODE >916:C:\Users\Josue\AppData\Local\Temp\sclg.s
+114 inittext CODE >917:C:\Users\Josue\AppData\Local\Temp\sclg.s
+115 inittext CODE >918:C:\Users\Josue\AppData\Local\Temp\sclg.s
+116 inittext CODE >919:C:\Users\Josue\AppData\Local\Temp\sclg.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -211,10 +211,10 @@ __Hstrings 0 0 ABS 0 strings -
 _ADC_nibble_uni 79 0 COMMON 1 dataCOMMON dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 _ADIF 66 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 _RBIF 58 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sa8k.o
+___sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sclg.o
 _main 156 0 CODE 0 maintext dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-start 1C 0 CODE 0 init C:\Users\Josue\AppData\Local\Temp\sa8k.o
+start 1C 0 CODE 0 init C:\Users\Josue\AppData\Local\Temp\sclg.o
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
@@ -223,12 +223,12 @@ __size_of_config_ADC 0 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 __HdataCOMMON 0 0 ABS 0 dataCOMMON -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sa8k.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Josue\AppData\Local\Temp\sclg.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
@@ -239,8 +239,8 @@ _ANSELH 189 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.producti
 __LdataCOMMON 0 0 ABS 0 dataCOMMON -
 __Lmaintext 0 0 ABS 0 maintext -
 __end_of_config 208 0 CODE 0 text2 dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sa8k.o
-___stacklo 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sa8k.o
+___stackhi 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sclg.o
+___stacklo 0 0 ABS 0 - C:\Users\Josue\AppData\Local\Temp\sclg.o
 __LidataCOMMON 0 0 ABS 0 idataCOMMON -
 _DISPLAY 20 0 BANK0 1 dataBANK0 dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
@@ -248,7 +248,7 @@ start_initialization 22 0 CODE 0 cinit dist/default/production\LAB2_Interrupcion
 _TRISAbits 85 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 _TRISBbits 86 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 _TRISEbits 89 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sa8k.o
+___int_sp 0 0 STACK 2 stack C:\Users\Josue\AppData\Local\Temp\sclg.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -301,7 +301,7 @@ __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\LAB2_Interrupcione
 __HidataCOMMON 0 0 ABS 0 idataCOMMON -
 __end_of_ISR D2 0 CODE 0 text3 dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Josue\AppData\Local\Temp\sa8k.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Josue\AppData\Local\Temp\sclg.o
 __pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 _PIE1bits 8C 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o
 __size_of_config 0 0 ABS 0 - dist/default/production\LAB2_Interrupciones_Lib.X.production.o

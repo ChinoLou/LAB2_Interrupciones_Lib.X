@@ -176,7 +176,7 @@ cstackCOMMON 70 79 COMMON 70 1
 dataBANK0 20 3F BANK0 20 1
 %locals
 dist/default/production\LAB2_Interrupciones_Lib.X.production.o
-C:\Users\Josue\AppData\Local\Temp\sa8k.s
+C:\Users\Josue\AppData\Local\Temp\sclg.s
 862 11 0 CODE 0
 865 11 0 CODE 0
 923 11 0 CODE 0
